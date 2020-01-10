@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Summary: Example
+# Usage: cli-common-core example
+
+set -e
+[ -n "$CLI_COMMON_CORE_DEBUG" ] && set -x
+
+example() {
+  local command="$1"
+  echo "example"
+}
+
+result="$(example "$CLI_COMMON_CORE_COMMAND")"
+[ -n "$result" ] && echo "$result"

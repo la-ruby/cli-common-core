@@ -1,0 +1,8 @@
+sudo: false
+os:
+  - osx
+  - linux
+install: git clone --depth 1 https://github.com/sstephenson/bats.git
+script: PATH="./bats/bin:$PATH" bats test
+language: shell
+
