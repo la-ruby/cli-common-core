@@ -6,7 +6,7 @@
 * [Installation](#installation)
   * [Basic GitHub Checkout](#basic-github-checkout)
     * [Upgrading with Git](#upgrading-with-git)
-  * [Uninstalling cli-commonc-re](#uninstalling-cli-common-core)
+  * [Uninstalling cli-common-core](#uninstalling-cli-common-core)
 * [Command Reference](#command-reference)
   * [cli-common-core version](#cli-common-core-version)
 * [Environment variables](#environment-variables)
