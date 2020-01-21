@@ -12,6 +12,7 @@
 * [Environment variables](#environment-variables)
 * [Development](#development)
 
+
 ## Installation
 
 ### Basic GitHub Checkout
@@ -90,6 +91,8 @@ Tests are executed using [Bats](https://github.com/sstephenson/bats):
 
     $ bats test
     $ bats test/<file>.bats
+
+- TODO / Idea: avoid the need to `cd` before issuing commands
 
 Please feel free to submit pull requests and file bugs on the [issue
 tracker](https://github.com/la-ruby/cli-common-core/issues).
